@@ -1,0 +1,551 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+body {
+  background-color: white;
+  width: 100%;
+}
+
+.logo-principal {
+  width: 218.5px;
+  border-radius: 50px;
+  display: block;
+  margin: auto;
+  padding: 5px;
+}
+
+nav {
+  background-color: white;
+  height: 180px;
+  box-shadow: 0px 7px 7px rgb(69, 69, 71);
+  border-radius: 30px;
+}
+
+h1 {
+  margin-left: 100px;
+  margin-top: -470px;
+  font-size: 17px;
+  color: rgb(31, 31, 31);
+}
+
+.telefone {
+  margin-left: 65px;
+  width: 50px;
+  position: relative;
+  top: -105px;
+}
+
+
+
+.button-insta {
+  position: absolute;
+  top: 70px;
+  margin-left: 1300px;
+  width: 90px;
+  height: 31px;
+  cursor: pointer;
+  font-size: 18.5px;
+  color: white;
+  background-color: blue;
+  border-radius: 10px;
+  border: none;
+}
+
+.img-insta {
+  position: absolute;
+  margin-left: 1330px;
+  top: 100px;
+  width: 35px;
+}
+
+.img-carro {
+  height: 41vh;
+  width: 78.5vw;
+  display: block;
+  margin: auto;
+  position: relative;
+  top: 27px;
+  border-radius: 35px;
+  color: rgb(31, 31, 31);
+}
+
+.conteiner-slider {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  gap: 1rem;
+}
+
+.conteiner-images {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 357px;
+  top: 360px;
+}
+
+.slider {
+  opacity: 0;
+  transition: opacity.2s;
+  position: absolute;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.on {
+  opacity: 1;
+}
+
+#prev-button {
+  width: 38px;
+  height: 38px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin-top: 650px;
+}
+
+#next-button {
+  width: 38px;
+  height: 38px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin-top: 650px;
+}
+
+#prev-button img,
+#next-button img {
+  width: 100%;
+  height: 100%;
+}
+
+#prev-button {
+  transform: rotate(180deg);
+}
+
+h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 255px;
+  font-size: 38px;
+}
+
+form {
+  width: 280px;
+  height: 320px;
+  background-color: #c1c1c1;
+  position: relative;
+  left: 41%;
+  top: 250px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+::placeholder {
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 4px;
+}
+
+.input {
+  width: 150px;
+  height: 25px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.input-tel {
+  margin-top: 10px;
+  margin-left: 50px;
+  width: 150px;
+  height: 25px;
+}
+
+.text {
+  margin-top: 10px;
+  margin-left: 50px;
+  width: 150px;
+  height: 40px;
+}
+
+.button-form {
+  width: 100px;
+  margin-left: 80px;
+  cursor: pointer;
+  background-color: blue;
+  margin-top: 10px;
+  border: none;
+  color: white;
+  height: 30px;
+  border-radius: 5px;
+  font-size: 18.5px;
+}
+
+iframe {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 1960px;
+  width: 380px;
+  height: 285px;
+  margin-left: 10px;
+  border-radius: 6px;
+  border: 5px 5px 5px 5px black;
+}
+
+
+
+.numero-tel {
+  font-size: 23px;
+  margin-top: -160px;
+  margin-left: 80px;
+}
+
+.icone {
+  margin-left: 300px;
+  margin-top: 85px;
+}
+
+p {
+  font-size: 22px;
+  margin-left: 580px;
+  margin-top: 450px;
+  position: relative;
+  color: rgb(4, 4, 4);
+  text-indent: 1.5em;
+}
+
+h4 {
+  font-size: 35px;
+  position: absolute;
+  margin-top: 50px;
+  color: rgb(31, 31, 31);
+  margin-left: 630px;
+}
+
+aside {
+  font-size: 22px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 740px;
+  width: 320px;
+  background-color: white;
+  border-radius: 15px;
+  color: rgb(33, 31, 31);
+  background-color: #c1c1c1;
+  height: 370px;
+}
+
+footer {
+  width: 1517px;
+  background-color: rgb(33, 32, 32);
+  height: 90px;
+  margin-top: 770px;
+}
+
+.rodape {
+  font-size: 32px;
+  color: white;
+  width: 50%vw;
+  top: 8px;
+}
+
+.logo-emp {
+  width: 47px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 900px) {
+  body {
+    background-color: white;
+    width: 100%;
+  }
+  
+  .logo-principal {
+    width: 165px;
+    border-radius: 50px;
+    display: block;
+    margin: auto;
+    padding: 5px;
+  }
+  
+  nav {
+    background-color: white;
+    height: 135px;
+    box-shadow: 0px 7px 7px rgb(142, 142, 144);
+    border-radius: 30px;
+    width: 377.8px;
+  }
+  
+  h1 {
+    margin-left: 9px;
+    margin-top: -420px;
+    font-size: 10px;
+    color: rgb(31, 31, 31);
+  }
+  
+  .telefone {
+    margin-left: 18px;
+    width: 20px;
+    position: relative;
+    top: -85px;
+  }
+  
+ 
+  
+  .button-insta {
+    position: absolute;
+    top: 70px;
+    margin-left: 310px;
+    width: 56px;
+    height: 25px;
+    cursor: pointer;
+    font-size: 12px;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .img-insta {
+    position: absolute;
+    margin-left: 328px;
+    top: 100px;
+    width: 25px;
+  }
+  
+  .img-carro {
+    width: 50%vw;
+    height: 296px;
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 21px;
+    border-radius: 20px;
+    color: rgb(31, 31, 31);
+    margin-left: 36px;
+  }
+  
+  .conteiner-slider {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    gap: 1rem;
+   margin-left: -5px;
+  }
+  
+  .conteiner-images {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 275px;
+    top: 360px;
+    margin-left: -10px;
+  }
+  
+  .slider {
+    opacity: 0;
+    transition: opacity.2s;
+    position: absolute;
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .on {
+    opacity: 1;
+  }
+  
+  #prev-button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin-top: 700px;
+  }
+  
+  #next-button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin-top: 700px;
+    margin-left: -10px;
+  
+  }
+  
+  #prev-button img,
+  #next-button img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  #prev-button {
+    transform: rotate(180deg);
+  }
+  
+  h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 105px;
+    font-size: 27px;
+  }
+  
+  form {
+    width: 240px;
+    height: 280px;
+    background-color: #c1c1c1;
+    position: relative;
+    left: 18%;
+    top: 170px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  ::placeholder {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 4px;
+  }
+  
+  .input {
+    width: 150px;
+    height: 25px;
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+  
+  .input-tel {
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 150px;
+    height: 25px;
+  }
+  
+  .text {
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 150px;
+    height: 40px;
+  }
+  
+  .button-form {
+    width: 90px;
+    margin-left: 45px;
+    cursor: pointer;
+    background-color: blue;
+    margin-top: 10px;
+    border: none;
+    color: white;
+    height: 25px;
+    border-radius: 5px;
+    font-size: 15.5px;
+  }
+  
+  iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 1960px;
+    width: 345px;
+    height: 250px;
+    margin-left: -7px;
+    border-radius: 6px;
+    border: 5px 5px 5px 5px black;
+  }
+  
+  
+  
+  .numero-tel {
+    font-size: 10px;
+    margin-top: -107px;
+    margin-left: 35px;
+  }
+  
+  .icone {
+    margin-left: 50px;
+    margin-top: 70px;
+    width: 45.5px;
+  }
+  
+  p {
+    font-size: 18px;
+    margin-left: 23px;
+    margin-top: 450px;
+    position: relative;
+    color: rgb(4, 4, 4);
+    text-indent: 1.5em;
+  }
+  
+  h4 {
+    font-size: 35px;
+    position: absolute;
+    margin-top: 50px;
+    color: rgb(31, 31, 31);
+    margin-left: 630px;
+  }
+  
+  aside {
+    font-size: 18.5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 740px;
+    width: 300px;
+    background-color: white;
+    border-radius: 15px;
+    color: rgb(33, 31, 31);
+    background-color: #c1c1c1;
+    height: 310px;
+    margin-left: -6px;
+  }
+
+  li{
+    margin-left: 10px;
+  }
+  
+  footer {
+    width: 370px;
+    background-color: rgb(33, 32, 32);
+    height: 80px;
+    margin-top: 770px;
+  }
+  
+  .rodape {
+    font-size: 21px;
+    color: white;
+    width: 50%vw;
+    top: 18px;
+  }
+  
+  .logo-emp {
+    width: 47px;
+  }
+  
+  
+  
+
+  
+}
