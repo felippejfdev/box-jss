@@ -303,7 +303,7 @@ footer {
     margin-left: 18px;
     width: 20px;
     position: relative;
-    top: -85px;
+    top: -60px;
   }
 
 
@@ -311,7 +311,7 @@ footer {
   .button-insta {
     position: absolute;
     top: 70px;
-    margin-left: 310px;
+    margin-left: 380px;
     width: 56px;
     height: 25px;
     cursor: pointer;
@@ -324,21 +324,21 @@ footer {
 
   .img-insta {
     position: absolute;
-    margin-left: 328px;
+    margin-left: 395px;
     top: 100px;
     width: 25px;
   }
 
   .img-carro {
-    width: 50%vw;
-    height: 296px;
+    width: 360px;
+    height: 300px;
     display: block;
     margin: auto;
     position: relative;
     top: 21px;
     border-radius: 20px;
     color: rgb(31, 31, 31);
-    margin-left: 36px;
+    margin-left: 68px;
   }
 
   .conteiner-slider {
@@ -357,7 +357,7 @@ footer {
     align-items: center;
     justify-content: center;
     width: 275px;
-    top: 360px;
+    top: 300px;
     margin-left: -10px;
   }
 
@@ -379,7 +379,7 @@ footer {
     border: none;
     background-color: transparent;
     cursor: pointer;
-    margin-top: 700px;
+    margin-top: 600px;
   }
 
   #next-button {
@@ -388,7 +388,7 @@ footer {
     border: none;
     background-color: transparent;
     cursor: pointer;
-    margin-top: 700px;
+    margin-top: 600px;
     margin-left: -10px;
 
   }
@@ -415,10 +415,10 @@ footer {
   form {
     width: 240px;
     height: 280px;
-    background-color: #c1c1c1;
+    background-color: #7f7c7c;
     position: relative;
-    left: 18%;
-    top: 170px;
+    left: 25%;
+    top: 200px;
     padding: 10px;
     border-radius: 10px;
   }
@@ -468,7 +468,7 @@ footer {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    margin-top: 1960px;
+    margin-top: 1760px;
     width: 345px;
     height: 250px;
     margin-left: -1px;
@@ -480,13 +480,13 @@ footer {
 
   .numero-tel {
     font-size: 10px;
-    margin-top: -107px;
+    margin-top: -79px;
     margin-left: 35px;
   }
 
   .icone {
     margin-left: 50px;
-    margin-top: 70px;
+    margin-top: 68px;
     width: 45.5px;
   }
 
@@ -513,7 +513,7 @@ footer {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    margin-top: 740px;
+    margin-top: 620px;
     width: 300px;
     background-color: white;
     border-radius: 15px;
@@ -528,9 +528,9 @@ footer {
   }
 
   footer {
-    width: 410px;
+    width: 490px;
     background-color: rgb(33, 32, 32);
-    height: 110px;
+    height: 100px;
     margin-top: 770px;
   }
 
