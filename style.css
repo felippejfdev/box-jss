@@ -410,7 +410,7 @@ footer {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    margin-top: 135px;
+    margin-top: 155px;
     font-size: 27px;
   }
 
@@ -504,7 +504,7 @@ footer {
   h4 {
     font-size: 35px;
     position: absolute;
-    margin-top: 135px;
+    margin-top: 80px;
     color: rgb(31, 31, 31);
     margin-left: 180px;
   }
