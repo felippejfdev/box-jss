@@ -269,12 +269,12 @@ footer {
   width: 47px;
 }
 
-@media screen and (min-width: 300px) and (max-width: 900px) {
+@media screen and (max-width: 600px) {
   body {
-    background-color: white;
-    width: 100%;
+    background-color: rgb(255, 255, 255);
+    height: 100%;
   }
-  
+
   .logo-principal {
     width: 165px;
     border-radius: 50px;
@@ -282,35 +282,31 @@ footer {
     margin: auto;
     padding: 5px;
   }
-  
+
   nav {
     background-color: white;
-    height: 135px;
     box-shadow: 0px 7px 7px rgb(142, 142, 144);
     border-radius: 30px;
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
+    width: 390px;
+    height: 150px;
   }
-  
+
   h1 {
     margin-left: 9px;
     margin-top: -420px;
     font-size: 10px;
     color: rgb(31, 31, 31);
   }
-  
+
   .telefone {
     margin-left: 18px;
     width: 20px;
     position: relative;
     top: -85px;
   }
-  
- 
-  
+
+
+
   .button-insta {
     position: absolute;
     top: 70px;
@@ -324,14 +320,14 @@ footer {
     border-radius: 5px;
     border: none;
   }
-  
+
   .img-insta {
     position: absolute;
     margin-left: 328px;
     top: 100px;
     width: 25px;
   }
-  
+
   .img-carro {
     width: 50%vw;
     height: 296px;
@@ -343,7 +339,7 @@ footer {
     color: rgb(31, 31, 31);
     margin-left: 36px;
   }
-  
+
   .conteiner-slider {
     display: flex;
     width: 100%;
@@ -351,9 +347,9 @@ footer {
     justify-content: center;
     min-height: 100vh;
     gap: 1rem;
-   margin-left: -5px;
+    margin-left: -5px;
   }
-  
+
   .conteiner-images {
     position: relative;
     display: flex;
@@ -363,7 +359,7 @@ footer {
     top: 360px;
     margin-left: -10px;
   }
-  
+
   .slider {
     opacity: 0;
     transition: opacity.2s;
@@ -371,11 +367,11 @@ footer {
     width: 100%;
     border-radius: 10px;
   }
-  
+
   .on {
     opacity: 1;
   }
-  
+
   #prev-button {
     width: 30px;
     height: 30px;
@@ -384,7 +380,7 @@ footer {
     cursor: pointer;
     margin-top: 700px;
   }
-  
+
   #next-button {
     width: 30px;
     height: 30px;
@@ -393,19 +389,19 @@ footer {
     cursor: pointer;
     margin-top: 700px;
     margin-left: -10px;
-  
+
   }
-  
+
   #prev-button img,
   #next-button img {
     width: 100%;
     height: 100%;
   }
-  
+
   #prev-button {
     transform: rotate(180deg);
   }
-  
+
   h2 {
     position: absolute;
     top: 50%;
@@ -414,7 +410,7 @@ footer {
     margin-top: 105px;
     font-size: 27px;
   }
-  
+
   form {
     width: 240px;
     height: 280px;
@@ -425,34 +421,34 @@ footer {
     padding: 10px;
     border-radius: 10px;
   }
-  
+
   ::placeholder {
     position: absolute;
     margin-left: 10px;
     margin-top: 4px;
   }
-  
+
   .input {
     width: 150px;
     height: 25px;
     margin-top: 50px;
     margin-left: 20px;
   }
-  
+
   .input-tel {
     margin-top: 10px;
     margin-left: 20px;
     width: 150px;
     height: 25px;
   }
-  
+
   .text {
     margin-top: 10px;
     margin-left: 20px;
     width: 150px;
     height: 40px;
   }
-  
+
   .button-form {
     width: 90px;
     margin-left: 45px;
@@ -465,7 +461,7 @@ footer {
     border-radius: 5px;
     font-size: 15.5px;
   }
-  
+
   iframe {
     position: absolute;
     top: 50%;
@@ -474,25 +470,25 @@ footer {
     margin-top: 1960px;
     width: 345px;
     height: 250px;
-    margin-left: -7px;
+    margin-left: -1px;
     border-radius: 6px;
     border: 5px 5px 5px 5px black;
   }
-  
-  
-  
+
+
+
   .numero-tel {
     font-size: 10px;
     margin-top: -107px;
     margin-left: 35px;
   }
-  
+
   .icone {
     margin-left: 50px;
     margin-top: 70px;
     width: 45.5px;
   }
-  
+
   p {
     font-size: 18px;
     margin-left: 23px;
@@ -501,15 +497,15 @@ footer {
     color: rgb(4, 4, 4);
     text-indent: 1.5em;
   }
-  
+
   h4 {
     font-size: 35px;
     position: absolute;
-    margin-top: 50px;
+    margin-top: 30px;
     color: rgb(31, 31, 31);
-    margin-left: 630px;
+    margin-left: 130px;
   }
-  
+
   aside {
     font-size: 18.5px;
     position: absolute;
@@ -526,30 +522,30 @@ footer {
     margin-left: -6px;
   }
 
-  li{
+  li {
     margin-left: 10px;
   }
-  
+
   footer {
-    width: 370px;
+    width: 389px;
     background-color: rgb(33, 32, 32);
     height: 80px;
     margin-top: 770px;
   }
-  
+
   .rodape {
     font-size: 21px;
     color: white;
     width: 50%vw;
-    top: 18px;
+    top: 10px;
   }
-  
+
   .logo-emp {
     width: 47px;
   }
-  
-  
-  
 
-  
+
+
+
+
 }
