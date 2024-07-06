@@ -264,7 +264,7 @@ footer {
 }
 
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:900px) {
 
   body {
     background-color: rgb(251, 251, 251);
@@ -392,7 +392,7 @@ footer {
     height: 320px;
     background-color: #c1c1c1;
     position: relative;
-    left: 26%;
+    left: 14.5%;
     top: 250px;
     padding: 10px;
     border-radius: 10px;
@@ -476,7 +476,7 @@ footer {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    margin-top: 740px;
+    margin-top: 650px;
     width: 320px;
     background-color: white;
     border-radius: 15px;
@@ -486,14 +486,14 @@ footer {
   }
 
   footer {
-    width: 117px;
+    width: 395px;
     background-color: rgb(33, 32, 32);
     height: 90px;
     margin-top: 770px;
   }
 
   .rodape {
-    font-size: 32px;
+    font-size: 22px;
     color: white;
     width: 50%vw;
     top: 8px;
