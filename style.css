@@ -503,10 +503,13 @@ footer {
 
   h4 {
     font-size: 35px;
-    position: absolute;
-    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     color: rgb(31, 31, 31);
-    margin-left: 180px;
+    
   }
 
   aside {
