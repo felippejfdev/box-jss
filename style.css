@@ -270,7 +270,7 @@ footer {
 }
 
 
-@media screen and (min-width:300px) and (max-width:900px){
+@media screen and (max-width:600px){
   body {
     background-color: rgb(255, 255, 255);
     height: 100%;
