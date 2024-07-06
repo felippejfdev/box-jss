@@ -286,11 +286,12 @@ footer {
     height: 147px;
     box-shadow: 0px 7px 7px rgb(69, 69, 71);
     border-radius: 20px;
+    width: 377px;
   }
 
   h1 {
     margin-left: 7px;
-    margin-top: -390px;
+    margin-top: -440px;
     font-size: 10px;
     color: rgb(31, 31, 31);
   }
@@ -477,7 +478,7 @@ footer {
 
   .icone {
     margin-left: 50px;
-    margin-top: 30px;
+    margin-top: 32px;
     width: 58px;
   }
 
