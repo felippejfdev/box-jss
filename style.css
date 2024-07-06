@@ -33,7 +33,7 @@ h1 {
   left: 50%;
   transform: translate(-50%, -50%);
   margin-top: 200px;
-  font-size: 18px;
+  font-size: 29px;
 }
 
 .telefone {
@@ -142,7 +142,7 @@ form {
   background-color: #c1c1c1;
   position: relative;
   left: 41%;
-  top: 250px;
+  top: 180px;
   padding: 10px;
   border-radius: 10px;
 }
@@ -216,7 +216,7 @@ iframe {
 p {
   font-size: 22px;
   margin-left: 580px;
-  margin-top: 450px;
+  margin-top: 180px;
   position: relative;
   color: rgb(4, 4, 4);
   text-indent: 1.5em;
@@ -227,7 +227,7 @@ h4 {
   position: absolute;
   margin-top: 50px;
   color: rgb(31, 31, 31);
-  margin-left: 630px;
+  margin-left: 700px;
 }
 
 aside {
@@ -246,10 +246,10 @@ aside {
 }
 
 footer {
-  width: 1517px;
+  width: 1685px;
   background-color: rgb(33, 32, 32);
   height: 90px;
-  margin-top: 770px;
+  margin-top: 720px;
 }
 
 .rodape {
@@ -264,14 +264,11 @@ footer {
 }
 
 
-@media only screen and (max-width:600px) {
+@media screen and (max-width:600px) {
 
   body {
     background-color: rgb(251, 251, 251);
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
+
   }
 
   .logo-principal {
@@ -282,7 +279,7 @@ footer {
     background-color: white;
     width: 100%;
     height: 150px;
-    
+
   }
 
   h1 {
@@ -325,14 +322,12 @@ footer {
   }
 
   .img-carro {
-    height: 41vh;
-    width: 78.5vw;
-    display: block;
-    margin: auto;
-    position: relative;
-    top: 27px;
-    border-radius: 35px;
-    color: rgb(31, 31, 31);
+
+    width: 100%;
+    height: 240px;
+
+
+
   }
 
   .conteiner-slider {
@@ -407,7 +402,7 @@ footer {
     height: 320px;
     background-color: #c1c1c1;
     position: relative;
-    left: 41%;
+    left: 26%;
     top: 250px;
     padding: 10px;
     border-radius: 10px;
@@ -468,27 +463,21 @@ footer {
 
 
 
-  .numero-tel {
-    font-size: 13px;
-    margin-top: -160px;
-    margin-left: 30px;
-  }
 
-  
 
   p {
-   margin-left: 7px;
-   margin-top: 550px;
-   font-size: 12px;
-   text-align: center;
-  
+    margin-left: 7px;
+    margin-top: 550px;
+    font-size: 12px;
+    text-align: center;
+
   }
 
   h4 {
-   font-size: 20px;
-   margin-left: 100px;
-   margin-top: 180px;
-  text-align: center;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: 180px;
+    text-align: center;
   }
 
   aside {
