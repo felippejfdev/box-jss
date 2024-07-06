@@ -286,7 +286,7 @@ footer {
     height: 147px;
     box-shadow: 0px 7px 7px rgb(69, 69, 71);
     border-radius: 20px;
-    width: 377px;
+    width: 100%vw;
   }
 
   h1 {
