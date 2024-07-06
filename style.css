@@ -460,13 +460,14 @@ footer {
     margin-top: 200px;
     font-size: 14px;
     text-align: center;
+    width: 100%;
 
   }
 
   h4 {
-    font-size: 20px;
+    font-size: 22px;
     margin-left: 100px;
-    margin-top: 180px;
+    width: 20%;
     text-align: center;
   }
 
