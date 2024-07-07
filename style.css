@@ -887,7 +887,7 @@ footer {
   }
 
   ::placeholder {
-    position: absolute;
+    position: relative;
     margin-left: 10px;
     margin-top: 4px;
   }
