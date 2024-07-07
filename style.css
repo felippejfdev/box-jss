@@ -990,9 +990,9 @@ footer {
 
 
 
-@media screen and (max-width:440px) {
+@media screen and (min-width:400px) and (max-width:416px) {
   body {
-    background-color: rgb(217, 30, 30);
+    background-color: rgb(13, 243, 243);
 
   }
 
@@ -1009,7 +1009,7 @@ footer {
   }
 
   h1 {
-    margin-top: 50px;
+    margin-top: 130px;
     font-size: 24px;
     width: 70%;
   }
@@ -1186,7 +1186,8 @@ footer {
   h4 {
     font-size: 22px;
     margin-left: 120px;
-    margin-top: 180px;
+    margin-top: 50px;
+    
 
   }
 
@@ -1210,7 +1211,7 @@ footer {
     background-color: rgb(33, 32, 32);
     height: 90px;
     margin-top: 650px;
-    width: 413.7px;
+    width: 413.9px;
   }
 
   .rodape {
@@ -1427,7 +1428,7 @@ footer {
   h4 {
     font-size: 22px;
     margin-left: 120px;
-    margin-top: 70px;
+    margin-top: 50px;
 
   }
 
