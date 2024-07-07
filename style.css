@@ -264,10 +264,10 @@ footer {
 }
 
 
-@media screen and (max-width:376px) {
+@media screen and (min-width:300px) and (max-width:330px) {
 
   body {
-    background-color: rgb(23, 19, 19);
+    background-color: rgb(255, 5, 196);
 
   }
 
@@ -284,7 +284,7 @@ footer {
   }
 
   h1 {
-    margin-top: 140px;
+    margin-top: 200px;
     font-size: 24px;
     width: 70%;
   }
@@ -509,9 +509,14 @@ footer {
 
 
 
-@media screen and (max-width:425px) {
+
+
+
+
+@media screen and (min-width:330px) and (max-width:376px) {
+
   body {
-    background-color: rgb(120, 97, 97);
+    background-color: rgb(80, 5, 255);
 
   }
 
@@ -528,7 +533,7 @@ footer {
   }
 
   h1 {
-    margin-top: 50px;
+    margin-top: 140px;
     font-size: 24px;
     width: 70%;
   }
@@ -630,8 +635,8 @@ footer {
     height: 320px;
     background-color: #c1c1c1;
     position: relative;
-    left: 16.3%;
-    top: 150px;
+    left: 12.3%;
+    top: 250px;
     padding: 10px;
     border-radius: 10px;
   }
@@ -681,7 +686,7 @@ footer {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    margin-top: 1800px;
+    margin-top: 1900px;
     width: 330px;
     height: 265px;
     margin-left: -1px;
@@ -694,7 +699,7 @@ footer {
 
 
   p {
-    margin-left: 3px;
+    margin-left: 7px;
     margin-top: 150px;
     font-size: 14px;
     text-align: center;
@@ -703,9 +708,9 @@ footer {
   }
 
   h4 {
-    font-size: 12px;
-    margin-left: 120px;
-    margin-top: 120px;
+    font-size: 22px;
+    margin-left: 100px;
+    margin-top: 60px;
 
   }
 
@@ -715,7 +720,7 @@ footer {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    margin-top: 550px;
+    margin-top: 650px;
     width: 320px;
     background-color: white;
     border-radius: 15px;
@@ -728,8 +733,8 @@ footer {
     width: 395px;
     background-color: rgb(33, 32, 32);
     height: 90px;
-    margin-top: 650px;
-    width: 413px;
+    margin-top: 770px;
+    width: 375px;
   }
 
   .rodape {
@@ -745,12 +750,18 @@ footer {
 
 
 
-
 }
 
-@media screen and (max-width:400px) {
+
+
+
+
+
+
+@media screen and (min-width:376px) and (max-width:415px) {
+
   body {
-    background-color: rgb(14, 194, 50);
+    background-color: rgb(238, 255, 0);
 
   }
 
@@ -763,248 +774,6 @@ footer {
     background-color: white;
     width: 100%;
     height: 150px;
-
-  }
-
-  h1 {
-    margin-top: 50px;
-    font-size: 24px;
-    width: 70%;
-  }
-
-
-
-  .button-insta {
-    position: absolute;
-    top: 70px;
-    margin-left: 295px;
-    width: 70px;
-    height: 31px;
-    cursor: pointer;
-    font-size: 14px;
-    color: white;
-    background-color: blue;
-    border-radius: 10px;
-    border: none;
-  }
-
-  .img-insta {
-    position: absolute;
-    margin-left: 311px;
-    top: 100px;
-    width: 35px;
-  }
-
-  .img-carro {
-
-    width: 90%;
-    height: 240px;
-
-
-
-  }
-
-  .conteiner-slider {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    gap: 1rem;
-  }
-
-  .conteiner-images {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 357px;
-    top: 360px;
-  }
-
-  .slider {
-    opacity: 0;
-    transition: opacity.2s;
-    position: absolute;
-    width: 100%;
-    border-radius: 10px;
-  }
-
-  .on {
-    opacity: 1;
-  }
-
-  #prev-button {
-    width: 38px;
-    height: 38px;
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-    margin-top: 650px;
-  }
-
-  #next-button {
-    width: 38px;
-    height: 38px;
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-    margin-top: 650px;
-  }
-
-  #prev-button img,
-  #next-button img {
-    width: 100%;
-    height: 100%;
-  }
-
-  #prev-button {
-    transform: rotate(180deg);
-  }
-
-
-
-  form {
-    width: 50%vw;
-    height: 320px;
-    background-color: #c1c1c1;
-    position: relative;
-    left: 14%;
-    top: 150px;
-    padding: 10px;
-    border-radius: 10px;
-  }
-
-  ::placeholder {
-    position: absolute;
-    margin-left: 10px;
-    margin-top: 4px;
-  }
-
-  .input {
-    width: 150px;
-    height: 25px;
-    margin-top: 50px;
-    margin-left: 50px;
-  }
-
-  .input-tel {
-    margin-top: 10px;
-    margin-left: 50px;
-    width: 150px;
-    height: 25px;
-  }
-
-  .text {
-    margin-top: 10px;
-    margin-left: 50px;
-    width: 150px;
-    height: 40px;
-  }
-
-  .button-form {
-    width: 100px;
-    margin-left: 80px;
-    cursor: pointer;
-    background-color: blue;
-    margin-top: 10px;
-    border: none;
-    color: white;
-    height: 30px;
-    border-radius: 5px;
-    font-size: 18.5px;
-  }
-
-  iframe {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin-top: 1800px;
-    width: 330px;
-    height: 265px;
-    margin-left: -1px;
-    border-radius: 6px;
-    border: 5px 5px 5px 5px black;
-  }
-
-
-
-
-
-  p {
-    margin-left: 3px;
-    margin-top: 150px;
-    font-size: 13px;
-    text-align: center;
-
-
-  }
-
-  h4 {
-    font-size: 22px;
-    margin-left: 120px;
-    margin-top: 90px;
-
-  }
-
-  aside {
-    font-size: 22px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin-top: 550px;
-    width: 320px;
-    background-color: white;
-    border-radius: 15px;
-    color: rgb(33, 31, 31);
-    background-color: #c1c1c1;
-    height: 370px;
-  }
-
-  footer {
-    width: 395px;
-    background-color: rgb(33, 32, 32);
-    height: 90px;
-    margin-top: 650px;
-    width: 390px;
-  }
-
-  .rodape {
-    font-size: 22px;
-    color: white;
-    width: 50%vw;
-    top: 8px;
-  }
-
-  .logo-emp {
-    width: 47px;
-  }
-
-
-
-
-}
-
-
-
-
-@media screen and (min-width:400px) and (max-width:416px) {
-  body {
-    background-color: rgb(13, 243, 243);
-
-  }
-
-
-  .logo-principal {
-    width: 180px;
-  }
-
-  nav {
-    background-color: white;
-    width: 411px
-    
 
   }
 
@@ -1111,8 +880,8 @@ footer {
     height: 320px;
     background-color: #c1c1c1;
     position: relative;
-    left: 17%;
-    top: 150px;
+    left: 16%;
+    top: 250px;
     padding: 10px;
     border-radius: 10px;
   }
@@ -1162,7 +931,7 @@ footer {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    margin-top: 1800px;
+    margin-top: 1900px;
     width: 330px;
     height: 265px;
     margin-left: -1px;
@@ -1175,251 +944,9 @@ footer {
 
 
   p {
-    margin-left: 3px;
+    margin-left: 7px;
     margin-top: 150px;
-    font-size: 13px;
-    text-align: center;
-
-
-  }
-
-  h4 {
-    font-size: 22px;
-    margin-left: 120px;
-    margin-top: 50px;
-    
-
-  }
-
-  aside {
-    font-size: 22px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin-top: 550px;
-    width: 320px;
-    background-color: white;
-    border-radius: 15px;
-    color: rgb(33, 31, 31);
-    background-color: #c1c1c1;
-    height: 370px;
-  }
-
-  footer {
-    width: 395px;
-    background-color: rgb(33, 32, 32);
-    height: 90px;
-    margin-top: 650px;
-    width: 413.9px;
-  }
-
-  .rodape {
-    font-size: 22px;
-    color: white;
-    width: 50%vw;
-    top: 8px;
-  }
-
-  .logo-emp {
-    width: 47px;
-  }
-
-
-}
-
-
-
-@media screen and (max-width:380px) {
-  body {
-    background-color: rgb(122, 194, 14);
-
-  }
-
-
-  .logo-principal {
-    width: 180px;
-  }
-
-  nav {
-    background-color: white;
-    width: 429.5px;
-    height: 150px;
-
-  }
-
-  h1 {
-    margin-top: 100px;
-    font-size: 24px;
-    width: 70%;
-    margin-left: 50px;
-  }
-
-
-
-  .button-insta {
-    position: absolute;
-    top: 70px;
-    margin-left: 295px;
-    width: 70px;
-    height: 31px;
-    cursor: pointer;
     font-size: 14px;
-    color: white;
-    background-color: blue;
-    border-radius: 10px;
-    border: none;
-  }
-
-  .img-insta {
-    position: absolute;
-    margin-left: 311px;
-    top: 100px;
-    width: 35px;
-  }
-
-  .img-carro {
-
-    width: 350px;
-    height: 240px;
-    margin-left: 39px;
-
-
-  }
-
-  .conteiner-slider {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    gap: 1rem;
-    margin-left: 27px;
-  }
-
-  .conteiner-images {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 357px;
-    top: 360px;
-  }
-
-  .slider {
-    opacity: 0;
-    transition: opacity.2s;
-    position: absolute;
-    width: 100%;
-    border-radius: 10px;
-  }
-
-  .on {
-    opacity: 1;
-  }
-
-  #prev-button {
-    width: 38px;
-    height: 38px;
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-    margin-top: 650px;
-  }
-
-  #next-button {
-    width: 38px;
-    height: 38px;
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-    margin-top: 650px;
-  }
-
-  #prev-button img,
-  #next-button img {
-    width: 100%;
-    height: 100%;
-  }
-
-  #prev-button {
-    transform: rotate(180deg);
-  }
-
-
-
-  form {
-    width: 50%vw;
-    height: 320px;
-    background-color: #c1c1c1;
-    position: relative;
-    left: 19%;
-    top: 200px;
-    padding: 10px;
-    border-radius: 10px;
-  }
-
-  ::placeholder {
-    position: absolute;
-    margin-left: 10px;
-    margin-top: 4px;
-  }
-
-  .input {
-    width: 150px;
-    height: 25px;
-    margin-top: 50px;
-    margin-left: 50px;
-  }
-
-  .input-tel {
-    margin-top: 10px;
-    margin-left: 50px;
-    width: 150px;
-    height: 25px;
-  }
-
-  .text {
-    margin-top: 10px;
-    margin-left: 50px;
-    width: 150px;
-    height: 40px;
-  }
-
-  .button-form {
-    width: 100px;
-    margin-left: 80px;
-    cursor: pointer;
-    background-color: blue;
-    margin-top: 10px;
-    border: none;
-    color: white;
-    height: 30px;
-    border-radius: 5px;
-    font-size: 18.5px;
-  }
-
-  iframe {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin-top: 1800px;
-    width: 330px;
-    height: 265px;
-    margin-left: 27px;
-    border-radius: 6px;
-    border: 5px 5px 5px 5px black;
-  }
-
-
-
-
-
-  p {
-    margin-left: 38px;
-    margin-top: 150px;
-    font-size: 13px;
     text-align: center;
 
 
@@ -1427,8 +954,8 @@ footer {
 
   h4 {
     font-size: 22px;
-    margin-left: 120px;
-    margin-top: 50px;
+    margin-left: 100px;
+    margin-top: 90px;
 
   }
 
@@ -1436,9 +963,9 @@ footer {
     font-size: 22px;
     position: absolute;
     top: 50%;
-    left: 56.5%;
+    left: 50%;
     transform: translate(-50%, -50%);
-    margin-top: 550px;
+    margin-top: 650px;
     width: 320px;
     background-color: white;
     border-radius: 15px;
@@ -1451,8 +978,8 @@ footer {
     width: 395px;
     background-color: rgb(33, 32, 32);
     height: 90px;
-    margin-top: 650px;
-    width: 430px;
+    margin-top: 770px;
+    width: 414px;
   }
 
   .rodape {
@@ -1465,6 +992,25 @@ footer {
   .logo-emp {
     width: 47px;
   }
+
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
