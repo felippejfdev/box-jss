@@ -517,7 +517,7 @@ footer {
 
   body {
     background-color: rgb(15, 255, 75);
-
+    overflow: hidden;
   }
 
 
@@ -1003,7 +1003,7 @@ footer {
 
 
 
-@media screen and (min-width:415px) and (max-width:430px){
+@media screen and (min-width:415px) and (max-width:430px) {
   body {
     background-color: rgb(2, 192, 255);
 
@@ -1238,21 +1238,3 @@ footer {
   }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
