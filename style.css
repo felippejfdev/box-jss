@@ -516,7 +516,7 @@ footer {
 @media screen and (min-width:330px) and (max-width:376px) {
 
   body {
-    background-color: rgb(80, 5, 255);
+    background-color: rgb(15, 255, 75);
 
   }
 
@@ -543,7 +543,7 @@ footer {
   .button-insta {
     position: absolute;
     top: 70px;
-    margin-left: 295px;
+    margin-left: 287px;
     width: 70px;
     height: 31px;
     cursor: pointer;
@@ -556,7 +556,7 @@ footer {
 
   .img-insta {
     position: absolute;
-    margin-left: 311px;
+    margin-left: 305px;
     top: 100px;
     width: 35px;
   }
@@ -635,7 +635,7 @@ footer {
     height: 320px;
     background-color: #c1c1c1;
     position: relative;
-    left: 12.3%;
+    left: 10.3%;
     top: 250px;
     padding: 10px;
     border-radius: 10px;
@@ -735,6 +735,7 @@ footer {
     height: 90px;
     margin-top: 770px;
     width: 375px;
+    margin-left: -2px;
   }
 
   .rodape {
