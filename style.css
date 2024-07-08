@@ -513,7 +513,7 @@ footer {
 
 
 
-@media screen and (min-width:330px) and (max-width:376px) and (max-height:780px) {
+@media screen and (min-width:330px) and (max-width:376px) {
 
   body {
     background-color: rgb(15, 255, 75);
@@ -635,7 +635,7 @@ footer {
     height: 320px;
     background-color: #c1c1c1;
     position: relative;
-    left: 11.3%;
+    left: 12.7%;
     top: 250px;
     padding: 10px;
     border-radius: 10px;
@@ -735,7 +735,7 @@ footer {
     height: 90px;
     margin-top: 770px;
     width: 375px;
-    margin-left: 1px;
+    margin-left: -2px;
   }
 
   .rodape {
