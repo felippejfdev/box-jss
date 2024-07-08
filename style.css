@@ -527,7 +527,7 @@ footer {
 
   nav {
     background-color: white;
-    width: 100%;
+    width: 100%vw;
     height: 150px;
 
   }
@@ -635,7 +635,7 @@ footer {
     height: 320px;
     background-color: #c1c1c1;
     position: relative;
-    left: 10.3%;
+    left: 11.3%;
     top: 250px;
     padding: 10px;
     border-radius: 10px;
@@ -735,7 +735,7 @@ footer {
     height: 90px;
     margin-top: 770px;
     width: 375px;
-    margin-left: -2px;
+    margin-left: 1px;
   }
 
   .rodape {
