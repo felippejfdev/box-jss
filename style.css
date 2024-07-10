@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: rgb(240, 233, 233);
+  background-color: rgb(101, 114, 255);
   width: 100%;
   overflow-x: hidden;
 }
@@ -46,8 +46,8 @@ nav {
   height: 31px;
   cursor: pointer;
   font-size: 18.5px;
-  color: white;
-  background-color: blue;
+  color: black;
+  background-color: rgb(101, 114, 255);
   border-radius: 10px;
   border: none;
 }
@@ -132,7 +132,7 @@ nav {
 form {
   width: 280px;
   height: 320px;
-  background-color: #c1c1c1;
+  background-color: white;
   position: relative;
   left: 41%;
   top: 180px;
@@ -171,10 +171,10 @@ form {
   width: 100px;
   margin-left: 80px;
   cursor: pointer;
-  background-color: blue;
+  background-color: rgb(101, 114, 255);
   margin-top: 10px;
   border: none;
-  color: white;
+  color: black;
   height: 30px;
   border-radius: 5px;
   font-size: 18.5px;
@@ -211,7 +211,7 @@ p {
   margin-left: 580px;
   margin-top: 180px;
   position: relative;
-  color: rgb(4, 4, 4);
+  color: black;
   text-indent: 1.5em;
 }
 
@@ -219,7 +219,7 @@ h4 {
   font-size: 35px;
   position: absolute;
   margin-top: 50px;
-  color: rgb(31, 31, 31);
+  color: black;
   margin-left: 700px;
 }
 
@@ -233,14 +233,13 @@ aside {
   width: 310px;
   background-color: white;
   border-radius: 15px;
-  color: rgb(33, 31, 31);
-  background-color: #c1c1c1;
+  color: black;
   height: 320px;
 }
 
 footer {
   width: 1520px;
-  background-color: rgb(33, 32, 32);
+  background-color: black;
   height: 80px;
   margin-top: 720px;
 }
@@ -260,7 +259,7 @@ footer {
 @media screen and (min-width:300px) and (max-width:330px) {
 
   body {
-    background-color: rgb(255, 5, 196);
+    background-color: rgb(101, 114, 255);
     overflow-x: hidden;
   }
 
@@ -276,7 +275,7 @@ footer {
 
   }
 
- 
+
 
 
 
@@ -288,8 +287,8 @@ footer {
     height: 31px;
     cursor: pointer;
     font-size: 14px;
-    color: white;
-    background-color: blue;
+    color: black;
+    background-color: rgb(101, 114, 255);
     border-radius: 10px;
     border: none;
   }
@@ -373,7 +372,7 @@ footer {
   form {
     width: 50%vw;
     height: 320px;
-    background-color: #c1c1c1;
+    background-color: white;
     position: relative;
     left: 12.3%;
     top: 250px;
@@ -412,10 +411,10 @@ footer {
     width: 100px;
     margin-left: 80px;
     cursor: pointer;
-    background-color: blue;
+    background-color: rgb(101, 114, 255);
     margin-top: 10px;
     border: none;
-    color: white;
+    color: black;
     height: 30px;
     border-radius: 5px;
     font-size: 18.5px;
@@ -464,8 +463,7 @@ footer {
     width: 310px;
     background-color: white;
     border-radius: 15px;
-    color: rgb(33, 31, 31);
-    background-color: #c1c1c1;
+    color: black;
     height: 210px;
   }
 
@@ -505,7 +503,7 @@ footer {
 @media screen and (min-width:330px) and (max-width:361px) {
 
   body {
-    background-color: rgb(15, 255, 75);
+    background-color: rgb(101, 114, 255);
     overflow-x: hidden;
   }
 
@@ -521,7 +519,7 @@ footer {
 
   }
 
- 
+
 
 
   .button-insta {
@@ -532,8 +530,8 @@ footer {
     height: 31px;
     cursor: pointer;
     font-size: 14px;
-    color: white;
-    background-color: blue;
+    color: black;
+    background-color: rgb(101, 114, 255);
     border-radius: 10px;
     border: none;
   }
@@ -617,7 +615,7 @@ footer {
   form {
     width: 50%vw;
     height: 320px;
-    background-color: #c1c1c1;
+    background-color: white;
     position: relative;
     left: 10.7%;
     top: 250px;
@@ -656,10 +654,10 @@ footer {
     width: 100px;
     margin-left: 80px;
     cursor: pointer;
-    background-color: blue;
+    background-color: rgb(101, 114, 255);
     margin-top: 10px;
     border: none;
-    color: white;
+    color: black;
     height: 30px;
     border-radius: 5px;
     font-size: 18.5px;
@@ -709,7 +707,6 @@ footer {
     background-color: white;
     border-radius: 15px;
     color: rgb(33, 31, 31);
-    background-color: #c1c1c1;
     height: 220px;
   }
 
@@ -745,7 +742,7 @@ footer {
 
 @media screen and (min-width:375px) and (max-width:415px) {
   body {
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(101, 114, 255);
     overflow-x: hidden;
   }
 
@@ -771,8 +768,8 @@ footer {
     height: 31px;
     cursor: pointer;
     font-size: 14px;
-    color: white;
-    background-color: blue;
+    color: black;
+    background-color: rgb(101, 114, 255);
     border-radius: 10px;
     border: none;
   }
@@ -856,7 +853,7 @@ footer {
   form {
     width: 50%vw;
     height: 320px;
-    background-color: #c1c1c1;
+    background-color: white;
     position: relative;
     left: 16%;
     top: 250px;
@@ -895,10 +892,10 @@ footer {
     width: 100px;
     margin-left: 80px;
     cursor: pointer;
-    background-color: blue;
+    background-color: rgb(101, 114, 255);
     margin-top: 10px;
     border: none;
-    color: white;
+    color: black;
     height: 30px;
     border-radius: 5px;
     font-size: 18.5px;
@@ -948,7 +945,6 @@ footer {
     background-color: white;
     border-radius: 15px;
     color: rgb(33, 31, 31);
-    background-color: #c1c1c1;
     height: 220px;
   }
 
@@ -982,7 +978,7 @@ footer {
 @media screen and (min-width:376px) and (max-width:415px) {
 
   body {
-    background-color: rgb(238, 255, 0);
+    background-color: rgb(101, 114, 255);
     overflow-x: hidden;
   }
 
@@ -1007,8 +1003,8 @@ footer {
     height: 31px;
     cursor: pointer;
     font-size: 14px;
-    color: white;
-    background-color: blue;
+    color: black;
+    background-color: rgb(101, 114, 255);
     border-radius: 10px;
     border: none;
   }
@@ -1092,7 +1088,7 @@ footer {
   form {
     width: 50%vw;
     height: 320px;
-    background-color: #c1c1c1;
+    background-color: white;
     position: relative;
     left: 16%;
     top: 250px;
@@ -1131,10 +1127,10 @@ footer {
     width: 100px;
     margin-left: 80px;
     cursor: pointer;
-    background-color: blue;
+    background-color: rgb(101, 114, 255);
     margin-top: 10px;
     border: none;
-    color: white;
+    color: black;
     height: 30px;
     border-radius: 5px;
     font-size: 18.5px;
@@ -1184,7 +1180,7 @@ footer {
     background-color: white;
     border-radius: 15px;
     color: rgb(33, 31, 31);
-    background-color: #c1c1c1;
+    background-color: white;
     height: 220px;
   }
 
@@ -1217,7 +1213,7 @@ footer {
 
 @media screen and (min-width:376px) and (max-width:413px) {
   body {
-    background-color: rgb(255, 129, 4);
+    background-color: rgb(101, 114, 255);
     overflow-x: hidden;
   }
 
@@ -1233,7 +1229,7 @@ footer {
 
   }
 
-  
+
 
 
 
@@ -1245,8 +1241,8 @@ footer {
     height: 31px;
     cursor: pointer;
     font-size: 14px;
-    color: white;
-    background-color: blue;
+    color: black;
+    background-color: rgb(101, 114, 255);
     border-radius: 10px;
     border: none;
   }
@@ -1330,7 +1326,7 @@ footer {
   form {
     width: 50%vw;
     height: 320px;
-    background-color: #c1c1c1;
+    background-color: white;
     position: relative;
     left: 16%;
     top: 250px;
@@ -1369,10 +1365,10 @@ footer {
     width: 100px;
     margin-left: 80px;
     cursor: pointer;
-    background-color: blue;
+    background-color: rgb(101, 114, 255);
     margin-top: 10px;
     border: none;
-    color: white;
+    color: black;
     height: 30px;
     border-radius: 5px;
     font-size: 18.5px;
@@ -1422,7 +1418,6 @@ footer {
     background-color: white;
     border-radius: 15px;
     color: rgb(33, 31, 31);
-    background-color: #c1c1c1;
     height: 220px;
   }
 
@@ -1464,7 +1459,7 @@ footer {
 
 @media screen and (min-width:415px) and (max-width:430px) {
   body {
-    background-color: rgb(2, 192, 255);
+    background-color: rgb(101, 114, 255);
     overflow-x: hidden;
   }
 
@@ -1480,7 +1475,7 @@ footer {
 
   }
 
-  
+
 
 
 
@@ -1492,8 +1487,8 @@ footer {
     height: 31px;
     cursor: pointer;
     font-size: 14px;
-    color: white;
-    background-color: blue;
+    color: black;
+    background-color: rgb(101, 114, 255);
     border-radius: 10px;
     border: none;
   }
@@ -1577,7 +1572,7 @@ footer {
   form {
     width: 50%vw;
     height: 320px;
-    background-color: #c1c1c1;
+    background-color: white;
     position: relative;
     left: 17%;
     top: 250px;
@@ -1616,10 +1611,10 @@ footer {
     width: 100px;
     margin-left: 80px;
     cursor: pointer;
-    background-color: blue;
+    background-color: rgb(101, 114, 255);
     margin-top: 10px;
     border: none;
-    color: white;
+    color: black;
     height: 30px;
     border-radius: 5px;
     font-size: 18.5px;
@@ -1669,7 +1664,6 @@ footer {
     background-color: white;
     border-radius: 15px;
     color: rgb(33, 31, 31);
-    background-color: #c1c1c1;
     height: 220px;
   }
 
@@ -1707,7 +1701,7 @@ footer {
 
 @media screen and (min-width:430px) and (max-width:530px) {
   body {
-    background-color: rgb(184, 6, 255);
+    background-color: rgb(101, 114, 255);
     overflow-x: hidden;
   }
 
@@ -1723,7 +1717,7 @@ footer {
 
   }
 
- 
+
 
 
 
@@ -1735,8 +1729,8 @@ footer {
     height: 31px;
     cursor: pointer;
     font-size: 14px;
-    color: white;
-    background-color: blue;
+    color: black;
+    background-color: rgb(101, 114, 255);
     border-radius: 10px;
     border: none;
   }
@@ -1820,7 +1814,7 @@ footer {
   form {
     width: 50%vw;
     height: 320px;
-    background-color: #c1c1c1;
+    background-color: white;
     position: relative;
     left: 17%;
     top: 250px;
@@ -1859,10 +1853,10 @@ footer {
     width: 100px;
     margin-left: 80px;
     cursor: pointer;
-    background-color: blue;
+    background-color: rgb(101, 114, 255);
     margin-top: 10px;
     border: none;
-    color: white;
+    color: black;
     height: 30px;
     border-radius: 5px;
     font-size: 18.5px;
@@ -1912,7 +1906,6 @@ footer {
     background-color: white;
     border-radius: 15px;
     color: rgb(33, 31, 31);
-    background-color: #c1c1c1;
     height: 220px;
   }
 
