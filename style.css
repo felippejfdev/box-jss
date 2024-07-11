@@ -2159,7 +2159,7 @@ footer {
 
 
 
-  @media screen and (min-width:430px) and (max-width:800px) {
+  @media screen and (min-width:430px) and (max-width:760px) {
     body {
       background-color: rgb(101, 114, 255);
       overflow-x: hidden;
