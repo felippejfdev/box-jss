@@ -5,26 +5,39 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  outline: none;
 }
 
 body {
-  background-color: rgb(101, 114, 255);
+  background-color: white;
   width: 100%;
   overflow-x: hidden;
 }
 
 .logo-principal {
-  width: 218.5px;
+  width: 215px;
   border-radius: 50px;
   display: block;
   margin: auto;
   padding: 5px;
 }
 
+
+.segunda-logo {
+  width: 177px;
+  position: absolute;
+  margin-top: -180px;
+  margin-left: 70px;
+  border-radius: 15px;
+  padding: 3px;
+}
+
+
+
 nav {
-  background-color: white;
+  background-color:rgb(56, 51, 221);
   height: 180px;
-  box-shadow: 0px 7px 7px rgb(69, 69, 71);
+  box-shadow: 0px 7px 7px rgb(99, 98, 108);
   border-radius: 30px;
 }
 
@@ -34,6 +47,7 @@ nav {
   width: 50px;
   position: relative;
   top: -105px;
+
 }
 
 
@@ -47,7 +61,7 @@ nav {
   cursor: pointer;
   font-size: 18.5px;
   color: black;
-  background-color: rgb(101, 114, 255);
+  background-color: white;
   border-radius: 10px;
   border: none;
 }
@@ -60,8 +74,7 @@ nav {
 }
 
 .img-carro {
-  height: 41vh;
-  width: 78.5vw;
+  width: 420.5px;
   display: block;
   margin: auto;
   position: relative;
@@ -85,7 +98,7 @@ nav {
   align-items: center;
   justify-content: center;
   width: 357px;
-  top: 360px;
+  top: 420px;
 }
 
 .slider {
@@ -106,7 +119,7 @@ nav {
   border: none;
   background-color: transparent;
   cursor: pointer;
-  margin-top: 650px;
+  margin-top: 850px;
 }
 
 #next-button {
@@ -115,7 +128,7 @@ nav {
   border: none;
   background-color: transparent;
   cursor: pointer;
-  margin-top: 650px;
+  margin-top: 850px;
 }
 
 #prev-button img,
@@ -132,10 +145,10 @@ nav {
 form {
   width: 280px;
   height: 320px;
-  background-color: white;
+  background-color: rgb(165, 163, 163);
   position: relative;
   left: 41%;
-  top: 180px;
+  top: 270px;
   padding: 10px;
   border-radius: 10px;
 }
@@ -171,18 +184,28 @@ form {
   width: 100px;
   margin-left: 80px;
   cursor: pointer;
-  background-color: rgb(101, 114, 255);
+  background-color: white;
   margin-top: 10px;
   border: none;
   color: black;
   height: 30px;
   border-radius: 5px;
   font-size: 18.5px;
+
 }
+
+.button-form:hover {
+  opacity: 2;
+  background-color: rgb(56, 51, 221);
+  color: white;
+}
+
+
+
 
 iframe {
   position: absolute;
-  top: 50%;
+  top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
   margin-top: 1960px;
@@ -207,47 +230,51 @@ iframe {
 }
 
 p {
-  font-size: 22px;
-  margin-left: 580px;
-  margin-top: 180px;
-  position: relative;
-  color: black;
-  text-indent: 1.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  line-height: 23px;
+  font-size: 19px;
 }
 
-h4 {
+
+
+h1 {
   font-size: 35px;
   position: absolute;
-  margin-top: 50px;
+  margin-top: 220px;
   color: black;
-  margin-left: 700px;
+  margin-left: 630px;
 }
 
 aside {
   font-size: 22px;
   position: absolute;
-  top: 50%;
+  top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
   margin-top: 740px;
   width: 310px;
-  background-color: white;
+  background-color: rgb(165, 163, 163);
   color: black;
-  height: 320px;
+  height: 300px;
+  border-radius: 10px;
 }
 
 footer {
   width: 1520px;
-  background-color: black;
+  background-color: rgb(165, 163, 163);
   height: 80px;
   margin-top: 720px;
 }
 
 .rodape {
   font-size: 32px;
-  color: white;
+  color: black;
   width: 50%vw;
-  top: 8px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 .logo-emp {
@@ -1942,249 +1969,232 @@ footer {
 
 
 
-  @media screen and (min-width:430px) and (max-width:760px) {
-    body {
-      background-color: rgb(101, 114, 255);
-      overflow-x: hidden;
-    }
-  
-  
-    .logo-principal {
-      width: 180px;
-    }
-  
-    nav {
-      background-color: white;
-      width: 100%;
-      height: 150px;
-  
-    }
-  
-  
-  
-    .button-insta {
-      position: absolute;
-      top: 70px;
-      margin-left: 295px;
-      width: 70px;
-      height: 31px;
-      cursor: pointer;
-      font-size: 14px;
-      color: black;
-      background-color: rgb(101, 114, 255);
-      border-radius: 10px;
-      border: none;
-    }
-  
-    .img-insta {
-      position: absolute;
-      margin-left: 311px;
-      top: 100px;
-      width: 35px;
-    }
-  
-    .img-carro {
-  
-      width: 100%;
-      height: 240px;
-  
-  
-  
-    }
-  
-    .conteiner-slider {
-      display: flex;
-      width: 100%;
-      align-items: center;
-      justify-content: center;
-      min-height: 100vh;
-      gap: 1rem;
-    }
-  
-    .conteiner-images {
-      position: relative;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 357px;
-      top: 360px;
-    }
-  
-    .slider {
-      opacity: 0;
-      transition: opacity.2s;
-      position: absolute;
-      width: 100%;
-      border-radius: 10px;
-    }
-  
-    .on {
-      opacity: 1;
-    }
-  
-    #prev-button {
-      width: 38px;
-      height: 38px;
-      border: none;
-      background-color: transparent;
-      cursor: pointer;
-      margin-top: 650px;
-    }
-  
-    #next-button {
-      width: 38px;
-      height: 38px;
-      border: none;
-      background-color: transparent;
-      cursor: pointer;
-      margin-top: 650px;
-    }
-  
-    #prev-button img,
-    #next-button img {
-      width: 100%;
-      height: 100%;
-    }
-  
-    #prev-button {
-      transform: rotate(180deg);
-    }
-  
-  
-  
-    form {
-      width: 50%vw;
-      height: 320px;
-      background-color: white;
-      position: relative;
-      left: 16%;
-      top: 250px;
-      padding: 10px;
-      border-radius: 10px;
-    }
-  
-    ::placeholder {
-      position: relative;
-      margin-left: 10px;
-      margin-top: 4px;
-    }
-  
-    .input {
-      width: 150px;
-      height: 25px;
-      margin-top: 50px;
-      margin-left: 50px;
-    }
-  
-    .input-tel {
-      margin-top: 10px;
-      margin-left: 50px;
-      width: 150px;
-      height: 25px;
-    }
-  
-    .text {
-      margin-top: 10px;
-      margin-left: 50px;
-      width: 150px;
-      height: 40px;
-    }
-  
-    .button-form {
-      width: 100px;
-      margin-left: 80px;
-      cursor: pointer;
-      background-color: rgb(101, 114, 255);
-      margin-top: 10px;
-      border: none;
-      color: black;
-      height: 30px;
-      border-radius: 5px;
-      font-size: 18.5px;
-    }
-  
-    iframe {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      margin-top: 1900px;
-      width: 330px;
-      height: 265px;
-      margin-left: -1px;
-      border-radius: 6px;
-      border: 5px 5px 5px 5px black;
-    }
-  
-  
-  
-  
-  
-    p {
-      margin-left: 7px;
-      margin-top: 150px;
-      font-size: 14px;
-      text-align: center;
-  
-  
-    }
-  
-    h4 {
-      font-size: 22px;
-      margin-left: 117px;
-      margin-top: 160px;
-  
-    }
-  
-    aside {
-      font-size: 22px;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      margin-top: 650px;
-      width: 320px;
-      background-color: white;
-      color: rgb(33, 31, 31);
-      height: 228px;
-    }
-  
-    footer {
-      width: 395px;
-      background-color: rgb(33, 32, 32);
-      height: 90px;
-      margin-top: 770px;
-      width: 414px;
-    }
-  
-    .rodape {
-      font-size: 22px;
-      color: white;
-      width: 50%vw;
-      top: 8px;
-    }
-  
-    .logo-emp {
-      width: 37px;
-    }
-  
+@media screen and (min-width:430px) and (max-width:760px) {
+  body {
+    background-color: rgb(101, 114, 255);
+    overflow-x: hidden;
+  }
 
-    
-    }
-  
-  
-   
-    
+
+  .logo-principal {
+    width: 180px;
+  }
+
+  nav {
+    background-color: white;
+    width: 100%;
+    height: 150px;
+
+  }
+
+
+
+  .button-insta {
+    position: absolute;
+    top: 70px;
+    margin-left: 295px;
+    width: 70px;
+    height: 31px;
+    cursor: pointer;
+    font-size: 14px;
+    color: black;
+    background-color: rgb(101, 114, 255);
+    border-radius: 10px;
+    border: none;
+  }
+
+  .img-insta {
+    position: absolute;
+    margin-left: 311px;
+    top: 100px;
+    width: 35px;
+  }
+
+  .img-carro {
+
+    width: 100%;
+    height: 240px;
+
+
+
+  }
+
+  .conteiner-slider {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    gap: 1rem;
+  }
+
+  .conteiner-images {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 357px;
+    top: 360px;
+  }
+
+  .slider {
+    opacity: 0;
+    transition: opacity.2s;
+    position: absolute;
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .on {
+    opacity: 1;
+  }
+
+  #prev-button {
+    width: 38px;
+    height: 38px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin-top: 650px;
+  }
+
+  #next-button {
+    width: 38px;
+    height: 38px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin-top: 650px;
+  }
+
+  #prev-button img,
+  #next-button img {
+    width: 100%;
+    height: 100%;
+  }
+
+  #prev-button {
+    transform: rotate(180deg);
+  }
+
+
+
+  form {
+    width: 50%vw;
+    height: 320px;
+    background-color: white;
+    position: relative;
+    left: 16%;
+    top: 250px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  ::placeholder {
+    position: relative;
+    margin-left: 10px;
+    margin-top: 4px;
+  }
+
+  .input {
+    width: 150px;
+    height: 25px;
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+
+  .input-tel {
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 150px;
+    height: 25px;
+  }
+
+  .text {
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 150px;
+    height: 40px;
+  }
+
+  .button-form {
+    width: 100px;
+    margin-left: 80px;
+    cursor: pointer;
+    background-color: rgb(101, 114, 255);
+    margin-top: 10px;
+    border: none;
+    color: black;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 18.5px;
+  }
+
+  iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 1900px;
+    width: 330px;
+    height: 265px;
+    margin-left: -1px;
+    border-radius: 6px;
+    border: 5px 5px 5px 5px black;
+  }
 
 
 
 
 
+  p {
+    margin-left: 7px;
+    margin-top: 150px;
+    font-size: 14px;
+    text-align: center;
 
-  
-  
-  
+
+  }
+
+  h4 {
+    font-size: 22px;
+    margin-left: 117px;
+    margin-top: 160px;
+
+  }
+
+  aside {
+    font-size: 22px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 650px;
+    width: 320px;
+    background-color: white;
+    color: rgb(33, 31, 31);
+    height: 228px;
+  }
+
+  footer {
+    width: 395px;
+    background-color: rgb(33, 32, 32);
+    height: 90px;
+    margin-top: 770px;
+    width: 414px;
+  }
+
+  .rodape {
+    font-size: 22px;
+    color: white;
+    width: 50%vw;
+    top: 8px;
+  }
+
+  .logo-emp {
+    width: 37px;
+  }
 
 
- 
-  
+
+}
