@@ -1838,7 +1838,7 @@ footer {
     background-color: rgb(165, 163, 163);
     position: relative;
     left: 16%;
-    top: 250px;
+    top: 310px;
     padding: 10px;
     border-radius: 10px;
   }
@@ -1909,10 +1909,10 @@ footer {
 
   }
 
-  h4 {
+  h1 {
     font-size: 22px;
     margin-left: 117px;
-    margin-top: 160px;
+    margin-top: 140px;
 
   }
 
