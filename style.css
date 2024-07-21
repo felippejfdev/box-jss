@@ -19,7 +19,7 @@ body {
   border-radius: 50px;
   display: block;
   margin: auto;
-  padding: 4px;
+  padding: 5px;
 }
 
 
@@ -35,19 +35,10 @@ body {
 
 
 nav {
-  background-color:rgb(56, 51, 221);
+  background-color: rgb(56, 51, 221);
   height: 180px;
   box-shadow: 0px 7px 7px rgb(99, 98, 108);
   border-radius: 30px;
-}
-
-
-.telefone {
-  margin-left: 65px;
-  width: 50px;
-  position: relative;
-  top: -105px;
-
 }
 
 
@@ -285,7 +276,7 @@ footer {
 @media screen and (min-width:300px) and (max-width:330px) {
 
   body {
-    background-color: rgb(101, 114, 255);
+    background-color: white;
     overflow-x: hidden;
   }
 
@@ -293,6 +284,8 @@ footer {
   .logo-principal {
     width: 180px;
   }
+
+
 
   nav {
     background-color: white;
@@ -528,7 +521,7 @@ footer {
 @media screen and (min-width:330px) and (max-width:361px) {
 
   body {
-    background-color: rgb(101, 114, 255);
+    background-color: white;
     overflow-x: hidden;
   }
 
@@ -761,7 +754,7 @@ footer {
 
 @media screen and (min-width:362px) and (max-width:395px) {
   body {
-    background-color: rgb(101, 114, 255);
+    background-color: white;
     overflow-x: hidden;
   }
 
@@ -992,7 +985,7 @@ footer {
 
 @media screen and (min-width:376px) and (max-width:413px) {
   body {
-    background-color: rgb(101, 114, 255);
+    background-color: white;
     overflow-x: hidden;
   }
 
@@ -1239,10 +1232,10 @@ footer {
 
 
 
-@media screen and (min-width:376px) and (max-width:415px) {
+@media screen and (min-width:376px) and (max-width:414px) {
 
   body {
-    background-color: rgb(101, 114, 255);
+    background-color: white;
     overflow-x: hidden;
   }
 
@@ -1485,7 +1478,7 @@ footer {
 
 @media screen and (min-width:415px) and (max-width:430px) {
   body {
-    background-color: rgb(101, 114, 255);
+    background-color: white;
     overflow-x: hidden;
   }
 
@@ -1721,7 +1714,7 @@ footer {
 @media screen and (min-width:376px) and (max-width:415px) {
 
   body {
-    background-color: rgb(101, 114, 255);
+    background-color: white;
     overflow-x: hidden;
   }
 
@@ -1730,8 +1723,19 @@ footer {
     width: 180px;
   }
 
+
+  .segunda-logo {
+    width: 107px;
+    position: absolute;
+    margin-top: -130px;
+    margin-left: 7px;
+    border-radius: 15px;
+    padding: 3px;
+  }
+
+
   nav {
-    background-color: white;
+    background-color: rgb(56, 51, 221);
     width: 100%;
     height: 150px;
 
@@ -1761,8 +1765,8 @@ footer {
 
   .img-carro {
 
-    width: 100%;
-    height: 240px;
+    width: 350px;
+    height: 200px;
 
 
 
@@ -1831,7 +1835,7 @@ footer {
   form {
     width: 50%vw;
     height: 320px;
-    background-color: white;
+    background-color: rgb(165, 163, 163);
     position: relative;
     left: 16%;
     top: 250px;
@@ -1920,15 +1924,14 @@ footer {
     transform: translate(-50%, -50%);
     margin-top: 650px;
     width: 320px;
-    background-color: white;
+    background-color: rgb(165, 163, 163);
     color: rgb(33, 31, 31);
-    background-color: white;
     height: 228px;
   }
 
   footer {
     width: 395px;
-    background-color: rgb(33, 32, 32);
+    background-color:rgb(165, 163, 163);
     height: 90px;
     margin-top: 770px;
     width: 414px;
@@ -1936,7 +1939,7 @@ footer {
 
   .rodape {
     font-size: 22px;
-    color: white;
+    color: black;
     width: 50%vw;
     top: 8px;
   }
@@ -1971,7 +1974,7 @@ footer {
 
 @media screen and (min-width:430px) and (max-width:760px) {
   body {
-    background-color: rgb(101, 114, 255);
+    background-color: white;
     overflow-x: hidden;
   }
 
