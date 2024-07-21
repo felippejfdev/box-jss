@@ -1714,7 +1714,7 @@ footer {
 @media screen and (min-width:376px) and (max-width:415px) {
 
   body {
-    background-color: white;
+    background-color: rgb(97, 50, 50);
     overflow-x: hidden;
   }
 
@@ -1755,6 +1755,13 @@ footer {
     border-radius: 10px;
     border: none;
   }
+
+  .button-form:hover {
+    opacity: 2;
+    background-color: rgb(56, 51, 221);
+    color: white;
+  }
+
 
   .img-insta {
     position: absolute;
@@ -1931,7 +1938,7 @@ footer {
 
   footer {
     width: 395px;
-    background-color:rgb(165, 163, 163);
+    background-color: rgb(165, 163, 163);
     height: 90px;
     margin-top: 770px;
     width: 414px;
