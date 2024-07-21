@@ -1795,10 +1795,10 @@ footer {
     justify-content: center;
     width: 357px;
     top: 360px;
-    border-radius: 10px;
+   
   }
 
-  .slider {
+  .slider,.slider-on {
     opacity: 0;
     transition: opacity.2s;
     position: absolute;
