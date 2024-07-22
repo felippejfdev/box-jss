@@ -1706,7 +1706,7 @@ footer {
 @media screen and (min-width:376px) and (max-width:415px) {
 
   body {
-    background-color: rgb(119, 26, 80);
+    background-color: rgb(97, 63, 83);
     overflow-x: hidden;
   }
 
@@ -1843,12 +1843,7 @@ footer {
   }
 
 
-  .conteiner-form {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-  }
+  
 
   ::placeholder {
     position: relative;
@@ -1905,11 +1900,6 @@ footer {
 
   }
 
-  .conteiner-iframe {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
 
 
 
