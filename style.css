@@ -1762,7 +1762,7 @@ footer {
 
     width: 300px;
     height: 250px;
-    line-height: normal;
+    
 
 
   }
@@ -1782,8 +1782,8 @@ footer {
     align-items: center;
     justify-content: center;
     width: 357px;
-    top: 240px;
-    line-height: normal;
+    top: 200px;
+   
 
   }
 
@@ -1835,7 +1835,7 @@ footer {
     background-color: rgb(165, 163, 163);
     position: relative;
     left: 16%;
-    top: 180px;
+    top: 100px;
     padding: 10px;
     border-radius: 10px;
   }
@@ -1885,13 +1885,13 @@ footer {
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
-    margin-top: 1710px;
+    margin-top: 1590px;
     width: 330px;
     height: 265px;
     margin-left: -1px;
     border-radius: 6px;
     border: 5px 5px 5px 5px black;
-    line-height: normal;
+   
   }
 
 
@@ -1903,7 +1903,7 @@ footer {
     margin-top: 100px;
     font-size: 14px;
     text-align: center;
-    line-height: normal;
+    
 
   }
 
@@ -1921,7 +1921,7 @@ footer {
     background-color: rgb(165, 163, 163);
     color: rgb(33, 31, 31);
     height: 228px;
-    line-height: normal;
+    
   }
 
 
@@ -1934,7 +1934,7 @@ footer {
     height: 90px;
     margin-top: 550px;
     width: 414px;
-    line-height: normal;
+   
   }
 
 
