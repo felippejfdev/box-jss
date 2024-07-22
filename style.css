@@ -1835,15 +1835,15 @@ footer {
     height: 320px;
     background-color: rgb(165, 163, 163);
     position: relative;
-    left: 0%;
+    left: 16%;
     padding: 10px;
     border-radius: 10px;
-    top: 75px;
+    top: 125px;
 
   }
 
 
-  
+
 
   ::placeholder {
     position: relative;
@@ -1890,7 +1890,7 @@ footer {
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
-    margin-top: 1600px;
+    margin-top: 1650px;
     width: 330px;
     height: 265px;
     margin-left: -1px;
@@ -1938,7 +1938,7 @@ footer {
     width: 395px;
     background-color: rgb(165, 163, 163);
     height: 90px;
-    margin-top: 440px;
+    margin-top: 540px;
     width: 414px;
 
   }
