@@ -704,7 +704,7 @@ footer {
 
   }
 
-  
+
 
   aside {
     font-size: 22px;
@@ -783,7 +783,7 @@ footer {
     cursor: pointer;
     font-size: 14px;
     color: black;
-    background-color:white;
+    background-color: white;
     border-radius: 10px;
     border: none;
   }
@@ -941,7 +941,7 @@ footer {
 
   }
 
-  
+
 
   aside {
     font-size: 22px;
@@ -951,7 +951,7 @@ footer {
     transform: translate(-50%, -50%);
     margin-top: 650px;
     width: 320px;
-    background-color:rgb(165, 163, 163);
+    background-color: rgb(165, 163, 163);
     color: rgb(33, 31, 31);
     height: 228px;
   }
@@ -1169,7 +1169,7 @@ footer {
 
   }
 
-  
+
 
   aside {
     font-size: 22px;
@@ -1227,7 +1227,7 @@ footer {
 @media screen and (min-width:376px) and (max-width:414px) {
 
   body {
-    background-color:white;
+    background-color: white;
     overflow-x: hidden;
   }
 
@@ -1762,7 +1762,7 @@ footer {
 
     width: 300px;
     height: 250px;
-
+    line-height: normal;
 
 
   }
@@ -1783,6 +1783,7 @@ footer {
     justify-content: center;
     width: 357px;
     top: 240px;
+    line-height: normal;
 
   }
 
@@ -1890,6 +1891,7 @@ footer {
     margin-left: -1px;
     border-radius: 6px;
     border: 5px 5px 5px 5px black;
+    line-height: normal;
   }
 
 
@@ -1901,11 +1903,11 @@ footer {
     margin-top: 100px;
     font-size: 14px;
     text-align: center;
-
+    line-height: normal;
 
   }
 
- 
+
 
   aside {
 
@@ -1919,7 +1921,7 @@ footer {
     background-color: rgb(165, 163, 163);
     color: rgb(33, 31, 31);
     height: 228px;
-
+    line-height: normal;
   }
 
 
@@ -1932,6 +1934,7 @@ footer {
     height: 90px;
     margin-top: 550px;
     width: 414px;
+    line-height: normal;
   }
 
 
@@ -2172,7 +2175,7 @@ footer {
 
   }
 
-  
+
 
   aside {
     font-size: 22px;
