@@ -231,13 +231,7 @@ p {
 
 
 
-h1 {
-  font-size: 35px;
-  position: absolute;
-  margin-top: 220px;
-  color: black;
-  margin-left: 630px;
-}
+
 
 aside {
   font-size: 22px;
@@ -285,10 +279,19 @@ footer {
     width: 180px;
   }
 
+  .segunda-logo {
+    width: 88px;
+    position: absolute;
+    margin-top: -108px;
+    margin-left: 7px;
+    border-radius: 15px;
+    padding: 3px;
+  }
+
 
 
   nav {
-    background-color: white;
+    background-color: rgb(56, 51, 221);
     width: 100%;
     height: 150px;
 
@@ -301,28 +304,28 @@ footer {
   .button-insta {
     position: absolute;
     top: 70px;
-    margin-left: 295px;
+    margin-left: 275px;
     width: 70px;
     height: 31px;
     cursor: pointer;
     font-size: 14px;
     color: black;
-    background-color: rgb(101, 114, 255);
+    background-color: rgb(56, 51, 221);
     border-radius: 10px;
     border: none;
   }
 
   .img-insta {
     position: absolute;
-    margin-left: 311px;
+    margin-left: 291px;
     top: 100px;
     width: 35px;
   }
 
   .img-carro {
 
-    width: 100%;
-    height: 240px;
+    width: 270px;
+    height: 270px;
 
 
 
@@ -391,7 +394,7 @@ footer {
   form {
     width: 50%vw;
     height: 320px;
-    background-color: white;
+    background-color: rgb(165, 163, 163);
     position: relative;
     left: 12.3%;
     top: 250px;
@@ -430,7 +433,7 @@ footer {
     width: 100px;
     margin-left: 80px;
     cursor: pointer;
-    background-color: rgb(101, 114, 255);
+    background-color: rgb(56, 51, 221);
     margin-top: 10px;
     border: none;
     color: black;
@@ -444,7 +447,7 @@ footer {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    margin-top: 1900px;
+    margin-top: 1950px;
     width: 330px;
     height: 265px;
     margin-left: -1px;
@@ -465,12 +468,6 @@ footer {
 
   }
 
-  h4 {
-    font-size: 22px;
-    margin-left: 100px;
-    margin-top: 110px;
-
-  }
 
   aside {
     font-size: 22px;
@@ -478,16 +475,16 @@ footer {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    margin-top: 650px;
+    margin-top: 700px;
     width: 310px;
-    background-color: white;
+    background-color: rgb(165, 163, 163);
     color: black;
     height: 225px;
   }
 
   footer {
     width: 395px;
-    background-color: rgb(33, 32, 32);
+    background-color: rgb(165, 163, 163);
     height: 90px;
     margin-top: 770px;
     width: 375px;
@@ -495,7 +492,7 @@ footer {
 
   .rodape {
     font-size: 22px;
-    color: white;
+    color: black;
     width: 50%vw;
     top: 8px;
   }
@@ -530,8 +527,18 @@ footer {
     width: 180px;
   }
 
+
+  .segunda-logo {
+    width: 84px;
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 7px;
+    border-radius: 15px;
+    padding: 3px;
+  }
+
   nav {
-    background-color: white;
+    background-color: rgb(56, 51, 221);
     width: 100%;
     height: 150px;
 
@@ -549,7 +556,7 @@ footer {
     cursor: pointer;
     font-size: 14px;
     color: black;
-    background-color: rgb(101, 114, 255);
+    background-color: white;
     border-radius: 10px;
     border: none;
   }
@@ -563,8 +570,8 @@ footer {
 
   .img-carro {
 
-    width: 100%;
-    height: 240px;
+    width: 280px;
+    height: 280px;
 
 
 
@@ -633,7 +640,7 @@ footer {
   form {
     width: 50%vw;
     height: 320px;
-    background-color: white;
+    background-color: rgb(165, 163, 163);
     position: relative;
     left: 10.7%;
     top: 250px;
@@ -672,7 +679,7 @@ footer {
     width: 100px;
     margin-left: 80px;
     cursor: pointer;
-    background-color: rgb(101, 114, 255);
+    background-color: rgb(56, 51, 221);
     margin-top: 10px;
     border: none;
     color: black;
@@ -707,12 +714,7 @@ footer {
 
   }
 
-  h4 {
-    font-size: 22px;
-    margin-left: 100px;
-    margin-top: 140px;
-
-  }
+  
 
   aside {
     font-size: 22px;
@@ -720,16 +722,16 @@ footer {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    margin-top: 650px;
+    margin-top: 750px;
     width: 320px;
-    background-color: white;
+    background-color: rgb(165, 163, 163);
     color: rgb(33, 31, 31);
     height: 228px;
   }
 
   footer {
     width: 100%;
-    background-color: rgb(27, 27, 27);
+    background-color: rgb(165, 163, 163);
     height: 90px;
     margin-top: 770px;
 
@@ -738,7 +740,7 @@ footer {
 
   .rodape {
     font-size: 22px;
-    color: white;
+    color: black;
     width: 90%;
     top: 8px;
   }
@@ -763,8 +765,18 @@ footer {
     width: 180px;
   }
 
+
+  .segunda-logo {
+    width: 89px;
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 17px;
+    border-radius: 15px;
+    padding: 3px;
+  }
+
   nav {
-    background-color: white;
+    background-color: rgb(56, 51, 221);
     width: 100%;
     height: 150px;
 
@@ -781,7 +793,7 @@ footer {
     cursor: pointer;
     font-size: 14px;
     color: black;
-    background-color: rgb(101, 114, 255);
+    background-color:white;
     border-radius: 10px;
     border: none;
   }
@@ -795,8 +807,8 @@ footer {
 
   .img-carro {
 
-    width: 100%;
-    height: 240px;
+    width: 300px;
+    height: 250px;
 
 
 
@@ -865,10 +877,10 @@ footer {
   form {
     width: 50%vw;
     height: 320px;
-    background-color: white;
+    background-color: rgb(165, 163, 163);
     position: relative;
     left: 16%;
-    top: 250px;
+    top: 270px;
     padding: 10px;
     border-radius: 10px;
   }
@@ -904,7 +916,7 @@ footer {
     width: 100px;
     margin-left: 80px;
     cursor: pointer;
-    background-color: rgb(101, 114, 255);
+    background-color: white;
     margin-top: 10px;
     border: none;
     color: black;
@@ -939,12 +951,7 @@ footer {
 
   }
 
-  h4 {
-    font-size: 22px;
-    margin-left: 117px;
-    margin-top: 160px;
-
-  }
+  
 
   aside {
     font-size: 22px;
@@ -954,14 +961,14 @@ footer {
     transform: translate(-50%, -50%);
     margin-top: 650px;
     width: 320px;
-    background-color: white;
+    background-color:rgb(165, 163, 163);
     color: rgb(33, 31, 31);
     height: 228px;
   }
 
   footer {
     width: 395px;
-    background-color: rgb(33, 32, 32);
+    background-color: rgb(165, 163, 163);
     height: 90px;
     margin-top: 770px;
     width: 414px;
@@ -969,7 +976,7 @@ footer {
 
   .rodape {
     font-size: 22px;
-    color: white;
+    color: black;
     width: 50%vw;
     top: 8px;
   }
@@ -1172,12 +1179,7 @@ footer {
 
   }
 
-  h4 {
-    font-size: 22px;
-    margin-left: 117px;
-    margin-top: 155px;
-
-  }
+  
 
   aside {
     font-size: 22px;
@@ -1235,7 +1237,7 @@ footer {
 @media screen and (min-width:376px) and (max-width:414px) {
 
   body {
-    background-color: white;
+    background-color:white;
     overflow-x: hidden;
   }
 
@@ -1419,12 +1421,7 @@ footer {
 
   }
 
-  h4 {
-    font-size: 22px;
-    margin-left: 117px;
-    margin-top: 160px;
 
-  }
 
   aside {
     font-size: 22px;
@@ -1487,8 +1484,18 @@ footer {
     width: 180px;
   }
 
+
+  .segunda-logo {
+    width: 108px;
+    position: absolute;
+    margin-top: -130px;
+    margin-left: 10px;
+    border-radius: 15px;
+    padding: 3px;
+  }
+
   nav {
-    background-color: white;
+    background-color: rgb(56, 51, 221);
     width: 100%;
     height: 150px;
 
@@ -1501,28 +1508,28 @@ footer {
   .button-insta {
     position: absolute;
     top: 70px;
-    margin-left: 295px;
+    margin-left: 305px;
     width: 70px;
     height: 31px;
     cursor: pointer;
     font-size: 14px;
     color: black;
-    background-color: rgb(101, 114, 255);
+    background-color: white;
     border-radius: 10px;
     border: none;
   }
 
   .img-insta {
     position: absolute;
-    margin-left: 311px;
+    margin-left: 321px;
     top: 100px;
     width: 35px;
   }
 
   .img-carro {
 
-    width: 100%;
-    height: 240px;
+    width: 310px;
+    height: 270px;
 
 
 
@@ -1591,7 +1598,7 @@ footer {
   form {
     width: 50%vw;
     height: 320px;
-    background-color: white;
+    background-color: rgb(165, 163, 163);
     position: relative;
     left: 17%;
     top: 250px;
@@ -1630,7 +1637,7 @@ footer {
     width: 100px;
     margin-left: 80px;
     cursor: pointer;
-    background-color: rgb(101, 114, 255);
+    background-color: white;
     margin-top: 10px;
     border: none;
     color: black;
@@ -1665,12 +1672,7 @@ footer {
 
   }
 
-  h4 {
-    font-size: 22px;
-    margin-left: 127px;
-    margin-top: 190px;
 
-  }
 
   aside {
     font-size: 22px;
@@ -1680,14 +1682,14 @@ footer {
     transform: translate(-50%, -50%);
     margin-top: 650px;
     width: 320px;
-    background-color: white;
+    background-color: rgb(165, 163, 163);
     color: rgb(33, 31, 31);
     height: 228px;
   }
 
   footer {
     width: 395px;
-    background-color: rgb(33, 32, 32);
+    background-color: rgb(165, 163, 163);
     height: 90px;
     margin-top: 770px;
     width: 429px;
@@ -1695,7 +1697,7 @@ footer {
 
   .rodape {
     font-size: 22px;
-    color: white;
+    color: black;
     width: 50%vw;
     top: 8px;
   }
@@ -1751,16 +1753,12 @@ footer {
     cursor: pointer;
     font-size: 14px;
     color: black;
-    background-color: rgb(101, 114, 255);
+    background-color: white;
     border-radius: 10px;
     border: none;
   }
 
-  .button-form:hover {
-    opacity: 2;
-    background-color: rgb(56, 51, 221);
-    color: white;
-  }
+
 
 
   .img-insta {
@@ -1795,7 +1793,7 @@ footer {
     justify-content: center;
     width: 357px;
     top: 360px;
-   
+
   }
 
   .slider {
@@ -1803,7 +1801,7 @@ footer {
     transition: opacity.2s;
     position: absolute;
     width: 100%;
-    
+
   }
 
   .on {
@@ -1882,7 +1880,7 @@ footer {
     width: 100px;
     margin-left: 80px;
     cursor: pointer;
-    background-color: rgb(101, 114, 255);
+    background-color: white;
     margin-top: 10px;
     border: none;
     color: black;
@@ -1917,14 +1915,10 @@ footer {
 
   }
 
-  h1 {
-    font-size: 22px;
-    margin-left: 117px;
-    margin-top: 140px;
-
-  }
+ 
 
   aside {
+
     font-size: 22px;
     position: absolute;
     top: 50%;
@@ -1935,7 +1929,12 @@ footer {
     background-color: rgb(165, 163, 163);
     color: rgb(33, 31, 31);
     height: 228px;
+
   }
+
+
+
+
 
   footer {
     width: 395px;
@@ -1944,6 +1943,11 @@ footer {
     margin-top: 770px;
     width: 414px;
   }
+
+
+
+
+
 
   .rodape {
     font-size: 22px;
@@ -1991,8 +1995,19 @@ footer {
     width: 180px;
   }
 
+
+  .segunda-logo {
+    width: 107px;
+    position: absolute;
+    margin-top: -130px;
+    margin-left: 12px;
+    border-radius: 15px;
+    padding: 3px;
+  }
+
+
   nav {
-    background-color: white;
+    background-color: rgb(56, 51, 221);
     width: 100%;
     height: 150px;
 
@@ -2003,28 +2018,28 @@ footer {
   .button-insta {
     position: absolute;
     top: 70px;
-    margin-left: 295px;
+    margin-left: 305px;
     width: 70px;
     height: 31px;
     cursor: pointer;
     font-size: 14px;
     color: black;
-    background-color: rgb(101, 114, 255);
+    background-color: white;
     border-radius: 10px;
     border: none;
   }
 
   .img-insta {
     position: absolute;
-    margin-left: 311px;
+    margin-left: 322px;
     top: 100px;
     width: 35px;
   }
 
   .img-carro {
 
-    width: 100%;
-    height: 240px;
+    width: 300px;
+    height: 260px;
 
 
 
@@ -2093,7 +2108,7 @@ footer {
   form {
     width: 50%vw;
     height: 320px;
-    background-color: white;
+    background-color: rgb(165, 163, 163);
     position: relative;
     left: 16%;
     top: 250px;
@@ -2132,7 +2147,7 @@ footer {
     width: 100px;
     margin-left: 80px;
     cursor: pointer;
-    background-color: rgb(101, 114, 255);
+    background-color: white;
     margin-top: 10px;
     border: none;
     color: black;
@@ -2167,12 +2182,7 @@ footer {
 
   }
 
-  h4 {
-    font-size: 22px;
-    margin-left: 117px;
-    margin-top: 160px;
-
-  }
+  
 
   aside {
     font-size: 22px;
@@ -2182,14 +2192,14 @@ footer {
     transform: translate(-50%, -50%);
     margin-top: 650px;
     width: 320px;
-    background-color: white;
+    background-color: rgb(165, 163, 163);
     color: rgb(33, 31, 31);
     height: 228px;
   }
 
   footer {
     width: 395px;
-    background-color: rgb(33, 32, 32);
+    background-color: rgb(165, 163, 163);
     height: 90px;
     margin-top: 770px;
     width: 414px;
@@ -2197,7 +2207,7 @@ footer {
 
   .rodape {
     font-size: 22px;
-    color: white;
+    color: black;
     width: 50%vw;
     top: 8px;
   }
