@@ -1706,7 +1706,7 @@ footer {
 @media screen and (min-width:376px) and (max-width:415px) {
 
   body {
-    background-color: rgb(64, 54, 54);
+    background-color: rgb(69, 15, 15);
     overflow-x: hidden;
   }
 
@@ -1836,9 +1836,9 @@ footer {
     background-color: rgb(165, 163, 163);
     position: relative;
     left: 16%;
-    top: 0px;
     padding: 10px;
     border-radius: 10px;
+   top: 0px;
 
   }
 
@@ -1919,12 +1919,12 @@ footer {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    margin-top: 430px;
+    
     width: 320px;
     background-color: rgb(165, 163, 163);
     color: rgb(33, 31, 31);
     height: 228px;
-
+    margin-bottom: -20px;
 
   }
 
