@@ -1783,6 +1783,8 @@ footer {
     justify-content: center;
     width: 357px;
     top: 200px;
+    display: flex;
+    justify-content: space-between;
    
 
   }
@@ -1838,6 +1840,8 @@ footer {
     top: 120px;
     padding: 10px;
     border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
   }
 
   ::placeholder {
@@ -1891,6 +1895,8 @@ footer {
     margin-left: -1px;
     border-radius: 6px;
     border: 5px 5px 5px 5px black;
+    display: flex;
+    justify-content: space-between;
    
   }
 
@@ -1921,6 +1927,8 @@ footer {
     background-color: rgb(165, 163, 163);
     color: rgb(33, 31, 31);
     height: 228px;
+    display: flex;
+    justify-content: space-between;
     
   }
 
