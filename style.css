@@ -1706,7 +1706,7 @@ footer {
 @media screen and (min-width:376px) and (max-width:415px) {
 
   body {
-    background-color: rgb(69, 15, 15);
+    background-color: rgb(119, 26, 80);
     overflow-x: hidden;
   }
 
@@ -1835,10 +1835,18 @@ footer {
     height: 320px;
     background-color: rgb(165, 163, 163);
     position: relative;
-    left: 16%;
+    left: 0%;
     padding: 10px;
     border-radius: 10px;
-   top: 0px;
+    top: 75px;
+
+  }
+
+
+  .conteiner-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
   }
 
@@ -1897,7 +1905,11 @@ footer {
 
   }
 
-
+  .conteiner-iframe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
 
 
@@ -1919,7 +1931,7 @@ footer {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    
+
     width: 320px;
     background-color: rgb(165, 163, 163);
     color: rgb(33, 31, 31);
