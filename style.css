@@ -23,27 +23,26 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 
 
-
-.logo-1 {
-  width: 150px;
-  border-radius: 10px;
+.logo-1{
+width: 75px;
+position: absolute;
+margin-left: -270px;
+border-radius: 12px;
 }
 
-.logo-2 {
-  width: 124px;
-  margin: 45px;
-  position: absolute;
-  margin-top: -124px;
-  border-radius: 10px;
+.logo-2{
+  width: 100px;
+  border-radius: 12px;
 }
 
 
 .conteiner-loja {
   margin: 10px;
-  border: 1px solid antiquewhite;
+  border: 1px solid black;
   display: flex;
   height: 100%vh;
   width: 100%vw;
