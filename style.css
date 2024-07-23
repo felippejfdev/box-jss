@@ -17,7 +17,7 @@ body {
 
 .conteiner-1 {
   height: 100%;
-  background-color:#173175;
+  background-color: #173175;
   box-shadow: 0px 7px 7px antiquewhite;
   border-radius: 10px;
   display: flex;
@@ -41,33 +41,44 @@ body {
 }
 
 
-.conteiner-img-loja {
-  border-radius: 10px;
+.conteiner-loja {
+  margin: 10px;
+  border: 1px solid antiquewhite;
   display: flex;
+  height: 100%vh;
+  width: 100%vw;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  gap: 50px;
 }
 
 .img-loja {
-  width: 400px;
-  height: 400px;
-  margin: 30px;
-  border-radius: 20px;
+  width: 300px;
+  border-radius: 12px;
 }
 
-.conteiner-p{
-  height: 100%;
+.p-loja {
+  font-size: 17px;
+}
+
+.conteiner-aside {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  background-color: rgb(176, 168, 168);
+  width: 250px;
+  border-radius: 10px;
+  font-size: 17px;
 }
 
-
-.p{
-    
+.lista {
   align-items: center;
   justify-content: center;
-  margin-top: 100px;
-  line-height: 33px;
-  font-size: 19px;
+  flex-direction: column;
+  background-color: rgb(176, 168, 168);
+  width: 250px;
+  border-radius: 10px;
+  font-size: 17px;
 }
