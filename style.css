@@ -18,7 +18,7 @@ body {
 .conteiner-1 {
   height: 100%;
   background-color: #173175;
-  box-shadow: 0px 7px 7px antiquewhite;
+  box-shadow: 0px 7px 7px rgb(19, 19, 18);
   border-radius: 10px;
   display: flex;
   align-items: center;
@@ -42,7 +42,7 @@ border-radius: 12px;
 
 .conteiner-loja {
   margin: 10px;
-  border: 1px solid black;
+  border: 1px solid antiquewhite;
   display: flex;
   height: 100%vh;
   width: 100%vw;
