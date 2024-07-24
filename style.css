@@ -103,6 +103,7 @@ li {
 
 
 video{
-  width: 250px;
-  border-radius: 8px;
+  width: 200px;
+  height: 300px;
+  border-radius: 28px;
 }
