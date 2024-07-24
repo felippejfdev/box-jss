@@ -18,7 +18,6 @@ body {
 .conteiner {
   display: flex;
   margin: 10px;
-  border: 4px solid rgb(9, 9, 9);
   height: 100%vh;
   width: 100%vw;
   flex-direction: row;
@@ -73,7 +72,7 @@ a {
 .conteiner-2 {
   display: flex;
   margin: 10px;
-  border: 2px solid rgb(9, 9, 9);
+  border: 2px solid antiquewhite;
   height: 100%vh;
   width: 100%vw;
   flex-direction: column;
@@ -88,7 +87,14 @@ a {
 }
 
 p {
-  font-size: 17px;
+  font-size: 18px;
+
+}
+
+h1 {
+  font-size: 27px;
+  font-family: unset;
+  color: black;
 }
 
 aside {
@@ -98,11 +104,12 @@ aside {
 }
 
 li {
-  font-size: 18px;
+  font-size: 19px;
+  font-size: unset;
 }
 
 
-video{
+video {
   width: 200px;
   height: 300px;
   border-radius: 28px;
