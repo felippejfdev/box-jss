@@ -15,69 +15,31 @@ body {
 
 
 
-.conteiner-1 {
-  height: 100%;
-  background-color: #173175;
-  box-shadow: 0px 7px 7px rgb(19, 19, 18);
-  border-radius: 10px;
+.conteiner {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  
-}
-
-
-.logo-1{
-width: 75px;
-position: absolute;
-margin-left: -270px;
-border-radius: 12px;
-}
-
-.logo-2{
-  width: 100px;
-  border-radius: 12px;
-}
-
-
-.conteiner-loja {
   margin: 10px;
-  border: 1px solid antiquewhite;
-  display: flex;
+  border: 4px solid rgb(9, 9, 9);
   height: 100%vh;
   width: 100%vw;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: 50px;
-}
-
-.img-loja {
-  width: 300px;
-  border-radius: 12px;
-}
-
-.p-loja {
-  font-size: 17px;
-}
-
-.conteiner-aside {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  background-color: rgb(176, 168, 168);
-  width: 250px;
+  flex-direction: row;
+  background-color: blueviolet;
   border-radius: 10px;
-  font-size: 17px;
-}
-
-.lista {
   align-items: center;
   justify-content: center;
-  flex-direction: column;
-  background-color: rgb(176, 168, 168);
-  width: 250px;
-  border-radius: 10px;
-  font-size: 17px;
+
+
+
+}
+
+.logo-1 {
+width: 73px;
+position: absolute;
+margin-top: -92px;
+margin-left: 35px;
+border-radius: 5px;
+}
+
+.logo-2 {
+width: 100px;
+border-radius: 8px;
 }
