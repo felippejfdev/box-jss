@@ -106,8 +106,8 @@ li {
 
 
 video {
-  width: 200px;
-  height: 300px;
+  width: 350px;
+  height: 250px;
   border-radius: 28px;
 }
 
@@ -183,4 +183,10 @@ footer {
   width: 100%;
   font-family: unset;
 
+}
+
+.img {
+  width: 350px;
+  height: 270px;
+  border-radius: 20px;
 }
