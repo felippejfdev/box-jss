@@ -108,8 +108,8 @@ li {
 video {
   width: 350px;
   height: 250px;
-  border-radius: 28px;
-  background-color: #173175;
+  border-radius: 48px;
+  background-color: antiquewhite;
 }
 
 
@@ -194,3 +194,4 @@ footer {
   height: 270px;
   border-radius: 20px;
 }
+
