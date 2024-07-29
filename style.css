@@ -107,6 +107,7 @@ p {
 
 aside {
   width: 200px;
+  height: 140px;
   background-color: rgb(198, 184, 184);
   border-radius: 8px;
 }
