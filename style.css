@@ -10,7 +10,7 @@
 
 
 body {
-  background-color: #173175;
+  background-color: antiquewhite;
 }
 
 
@@ -21,7 +21,7 @@ body {
   height: 100%vh;
   width: 100%vw;
   flex-direction: row;
-  background-color: antiquewhite;
+  background-color: #173175;
   border-radius: 10px;
   align-items: center;
   justify-content: center;
